@@ -1,0 +1,64 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .container {
+    height: 100vh;
+    background-color: #1e293b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    font-size: 40px;
+    color: #f0bb03;
+    font-weight: 800;
+    font-family: Bree Serif;
+  }
+  .paragraph {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: Bree Serif;
+  }
+  .button {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: Bree Serif;
+  }
+}
+body {
+  margin: 0px;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    height: 100vh;
+    background-color: #1e293b;
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    font-size: 25px;
+    color: #f0bb03;
+    font-weight: 800;
+    font-family: Bree Serif;
+  }
+  .paragraph {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: Bree Serif;
+  }
+  .button {
+    height: 20px;
+    width: 70px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: Bree Serif;
+    font-size: 10px;
+  }
+}
